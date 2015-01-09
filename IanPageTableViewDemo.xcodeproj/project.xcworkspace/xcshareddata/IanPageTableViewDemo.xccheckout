@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91F4D98B-AC70-4C05-9E4B-2596D57DA934</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IanPageTableViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5FE6743F54E2B8B21474DDE2D318097330C1B72B</key>
+		<string>https://coding.net/ianisme/IanPageTableViewDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IanPageTableViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5FE6743F54E2B8B21474DDE2D318097330C1B72B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://coding.net/ianisme/IanPageTableViewDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5FE6743F54E2B8B21474DDE2D318097330C1B72B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5FE6743F54E2B8B21474DDE2D318097330C1B72B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IanPageTableViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

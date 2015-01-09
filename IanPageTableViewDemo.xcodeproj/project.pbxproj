@@ -13,6 +13,7 @@
 		3C41B22B1A5F6D6F002FE7DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C41B2291A5F6D6F002FE7DD /* LaunchScreen.xib */; };
 		3C41B2371A5F6D6F002FE7DD /* IanPageTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41B2361A5F6D6F002FE7DD /* IanPageTableViewDemoTests.m */; };
 		3C41B2421A5F6DC5002FE7DD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41B2411A5F6DC5002FE7DD /* RootViewController.m */; };
+		3C41B2461A5FAE22002FE7DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C41B2451A5FAE22002FE7DD /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3C41B2361A5F6D6F002FE7DD /* IanPageTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IanPageTableViewDemoTests.m; sourceTree = "<group>"; };
 		3C41B2401A5F6DC5002FE7DD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		3C41B2411A5F6DC5002FE7DD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3C41B2451A5FAE22002FE7DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3C41B2411A5F6DC5002FE7DD /* RootViewController.m */,
 				3C41B2271A5F6D6F002FE7DD /* Images.xcassets */,
 				3C41B2291A5F6D6F002FE7DD /* LaunchScreen.xib */,
+				3C41B2451A5FAE22002FE7DD /* Default-568h@2x.png */,
 				3C41B21A1A5F6D6F002FE7DD /* Supporting Files */,
 			);
 			path = IanPageTableViewDemo;
@@ -198,6 +201,7 @@
 			files = (
 				3C41B22B1A5F6D6F002FE7DD /* LaunchScreen.xib in Resources */,
 				3C41B2281A5F6D6F002FE7DD /* Images.xcassets in Resources */,
+				3C41B2461A5FAE22002FE7DD /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,7 @@
 				3C41B23C1A5F6D6F002FE7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C41B23D1A5F6D6F002FE7DD /* Build configuration list for PBXNativeTarget "IanPageTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +415,7 @@
 				3C41B23F1A5F6D6F002FE7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
