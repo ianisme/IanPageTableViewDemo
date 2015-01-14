@@ -8,11 +8,13 @@
 
 #import "RootViewController.h"
 
-#define kWindowHeight 90.0f
+#define kWindowHeight 100.0f
 #define kImageHeight 200.0f
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
-
+{
+    CGFloat _animateFactor;
+}
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UIScrollView *scrollView;
 
@@ -106,6 +108,12 @@
         _scrollView.contentOffset = CGPointMake(0.0, yOffset);
         
     }
+// 加入放大效果
+//    _animateFactor = -(_tableView.contentOffset.y)*0.03;
+//
+//    ((UIScrollView *)[_scrollView viewWithTag:9999]).transform = CGAffineTransformMakeScale(_animateFactor < 1.0 ? 1.0 : _animateFactor,
+//                                                         _animateFactor < 1.0 ? 1.0 : _animateFactor);
+
 }
 
 - (UITableView *)tableView
@@ -129,6 +137,7 @@
         UIImageView *imageView = [[UIImageView alloc] init];
         imageView.backgroundColor = [UIColor clearColor];
         imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, kImageHeight);
+        imageView.tag = 9999;
         imageView.image = [UIImage imageNamed:@"demo"];
         [_scrollView addSubview:imageView];
     }
