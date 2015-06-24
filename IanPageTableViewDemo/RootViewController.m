@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.scrollView.frame = CGRectMake(0,kWindowHeight - kImageHeight, self.view.frame.size.width, kImageHeight - kWindowHeight + self.view.frame.size.height);
+    self.scrollView.frame = CGRectMake(0,kWindowHeight - kImageHeight+(kImageHeight-kWindowHeight)/2.0f, self.view.frame.size.width, kImageHeight - kWindowHeight + self.view.frame.size.height);
     self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
 
     // Do any additional setup after loading the view.
@@ -45,7 +45,7 @@
     if (!section) {
         return 1;
     }
-    return 100;
+    return 50;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -70,6 +70,7 @@
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellReuseIdentifier];
             cell.selectionStyle  = UITableViewCellSelectionStyleNone;
         }
+        cell.textLabel.text = [NSString stringWithFormat:@"test %d",indexPath.row];
     }
     return cell;
 }
