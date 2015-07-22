@@ -139,6 +139,8 @@
         imageView.backgroundColor = [UIColor clearColor];
         imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, kImageHeight);
         imageView.tag = 9999;
+        imageView.clipsToBounds = YES;
+        imageView.contentMode = UIViewContentModeScaleAspectFill;
         imageView.image = [UIImage imageNamed:@"demo"];
         [_scrollView addSubview:imageView];
     }
