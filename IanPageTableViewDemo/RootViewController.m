@@ -109,7 +109,7 @@
         _scrollView.contentOffset = CGPointMake(0.0, yOffset);
         
     }
-// 加入放大效果
+#warning 加入放大效果
 //    _animateFactor = -(_tableView.contentOffset.y)*0.03;
 //
 //    ((UIScrollView *)[_scrollView viewWithTag:9999]).transform = CGAffineTransformMakeScale(_animateFactor < 1.0 ? 1.0 : _animateFactor,
