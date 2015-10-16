@@ -1,7 +1,6 @@
 #IanPageTableViewDemo
 
 ### 说明：
-- 请star Github 以保证获得最新的代码
 - https://github.com/ianisme/IanPageTableViewDemo
 - 此Demo是模仿path和QQ空间的个人主页景深效果。
 - 注意: 打开warning注释可以打开放大效果
