@@ -6,4 +6,4 @@
 - 注意: 打开warning注释可以打开放大效果
 
 ### 效果演示：
-<img src="https://coding.net/u/ianisme/p/IanPageTableViewDemo/git/raw/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
+<img src="https://raw.githubusercontent.com/ianisme/IanPageTableViewDemo/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
